@@ -34,6 +34,7 @@
           <e p="FollowCamera.cs" t="Include" />
           <e p="MathUtils.cs" t="Include" />
           <e p="PlayerCharacter.cs" t="Include" />
+          <e p="WorldControlData.cs" t="Include" />
           <e p="WorldController.cs" t="Include" />
         </e>
       </e>

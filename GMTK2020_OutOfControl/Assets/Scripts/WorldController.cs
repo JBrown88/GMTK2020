@@ -41,14 +41,7 @@ namespace GMTK2020_OutOfControl
 
 		#region Inspector Variables
 
-		[SerializeField] private float _rotationSpeed = 10f;
-		[SerializeField] private float _rotationDampTime = 0.15f;
-		[SerializeField] private float _resetRotationTime = 0.15f;
-		[SerializeField] private Vector2 _rotationLimits = new Vector2(-45, 45);
-		[SerializeField] private float _bumpForce = 500f;
-		[SerializeField] private float _bumpCooldownTime = 0.5f;
-		[SerializeField] private float _bumpDuration = 0.3f;
-		[SerializeField] private AnimationCurve _bumpCurve;
+		[SerializeField] private WorldControlData _data;
 		[SerializeField] private bool _resetRotation;
 		[SerializeField] private Transform _worldPivot;
 		//[SerializeField] private CinemachinePathBase _pivotPath;
@@ -94,7 +87,7 @@ namespace GMTK2020_OutOfControl
 		{
 			_transform = transform;
 			_turnAngle = 0f;
-			_bumpCooldown = new CooldownTimer(_bumpCooldownTime, false);
+			_bumpCooldown = new CooldownTimer(_data._bumpCooldownTime, false);
 			_bCanBump = true;
 		}
 		
@@ -107,19 +100,19 @@ namespace GMTK2020_OutOfControl
 			float targetRotation;
 			if (!_resetRotation)
 			{
-				_curRotation += rotateInput * _rotationSpeed * Mathf.Deg2Rad;
+				_curRotation += rotateInput * _data._rotationSpeed * Mathf.Deg2Rad;
 				targetRotation = _curRotation;
 			}
 			else
 			{
 				var lerpValue = MathUtils.MapValueToRange(-1, 1, 0, 1, rotateInput);
-				_curRotation = Mathf.SmoothDamp(_curRotation, _rotationLimits.Lerp(lerpValue), ref _targetRotationDamp, _resetRotationTime);
+				_curRotation = Mathf.SmoothDamp(_curRotation, _data._rotationLimits.Lerp(lerpValue), ref _targetRotationDamp, _data._resetRotationTime);
 				targetRotation = _curRotation;
 			}
 			
-			targetRotation = targetRotation.Clamp(_rotationLimits);
+			targetRotation = targetRotation.Clamp(_data._rotationLimits);
 
-			_turnAngle = Mathf.SmoothDampAngle(_turnAngle, targetRotation, ref _rotationDamp, _rotationDampTime);
+			_turnAngle = Mathf.SmoothDampAngle(_turnAngle, targetRotation, ref _rotationDamp, _data._rotationDampTime);
 			var angleDelta = Mathf.DeltaAngle(_transform.eulerAngles.z, _turnAngle);
 			_transform.RotateAround(_worldPivot.position, _transform.forward, angleDelta);
 
@@ -131,7 +124,7 @@ namespace GMTK2020_OutOfControl
 
 					if (PlayerCharacter.IsGrounded)
 					{
-						PlayerCharacter.ApplyImpulse(_bumpForce * 10 * _transform.up);
+						PlayerCharacter.ApplyImpulse(_data._bumpForce * _transform.up);
 					}
 
 					StartCoroutine(Bump());
@@ -167,10 +160,10 @@ namespace GMTK2020_OutOfControl
 		{
 			var baseLocation = _transform.position;
 			var animTime = 0f;
-			while (animTime < _bumpDuration)
+			while (animTime < _data._bumpDuration)
 			{
-				var yOffset = _bumpCurve.Evaluate(animTime / _bumpDuration);
-				_transform.position = baseLocation + (yOffset * _bumpForce * transform.up);
+				var yOffset = _data._bumpCurve.Evaluate(animTime / _data._bumpDuration);
+				_transform.position = baseLocation + (yOffset * _data._bumpForce * transform.up);
 				yield return null;
 				animTime += Time.deltaTime;
 			}
