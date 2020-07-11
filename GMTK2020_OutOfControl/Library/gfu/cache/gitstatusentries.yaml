@@ -1,0 +1,858 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2020-07-11T09:57:19.296+08:00
+  initializedAtString: 2020-07-11T09:42:46.706+08:00
+  entries:
+  - path: .gitignore
+    fullPath: I:\Unity\Projects\GMTK2020\.gitignore
+    projectPath: ..\.gitignore
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Assets\Graphics.meta
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Assets\Graphics.meta
+    projectPath: Assets\Graphics.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Assets\Music & SoundFX.meta
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Assets\Music & SoundFX.meta
+    projectPath: Assets\Music & SoundFX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Assets\Plugins.meta
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Assets\Prefabs.meta
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Assets\Prefabs.meta
+    projectPath: Assets\Prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Assets\Resources.meta
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Assets\Resources.meta
+    projectPath: Assets\Resources.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Assets\Scripts.meta
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Assets\Scripts.meta
+    projectPath: Assets\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\APIUpdater\project-dependencies.graph
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\assetDatabase3
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\EditorInstance.json
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\gfu\cache\branches.yaml
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\gfu\cache\gitlocks.yaml
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\gfu\cache\gitlog.yaml
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\gfu\cache\repoinfo.yaml
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\08\08a71f2dc1d36e440928cdae2c370963
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\08\08a71f2dc1d36e440928cdae2c370963
+    projectPath: Library\metadata\08\08a71f2dc1d36e440928cdae2c370963
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\08\08a71f2dc1d36e440928cdae2c370963.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\08\08a71f2dc1d36e440928cdae2c370963.info
+    projectPath: Library\metadata\08\08a71f2dc1d36e440928cdae2c370963.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+    projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+    projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\23\23c8bee69b591054094d32918f98facd
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\23\23c8bee69b591054094d32918f98facd
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\27\2735b1604d03aee4abd54fdc1286af8b
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\27\2735b1604d03aee4abd54fdc1286af8b
+    projectPath: Library\metadata\27\2735b1604d03aee4abd54fdc1286af8b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\27\2735b1604d03aee4abd54fdc1286af8b.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\27\2735b1604d03aee4abd54fdc1286af8b.info
+    projectPath: Library\metadata\27\2735b1604d03aee4abd54fdc1286af8b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\2d\2dab131748682c345a5763d282496613
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\2d\2dab131748682c345a5763d282496613
+    projectPath: Library\metadata\2d\2dab131748682c345a5763d282496613
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\2d\2dab131748682c345a5763d282496613.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\2d\2dab131748682c345a5763d282496613.info
+    projectPath: Library\metadata\2d\2dab131748682c345a5763d282496613.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\3a\3a719f94c6db3544e9a02f9032fe01a1
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\3a\3a719f94c6db3544e9a02f9032fe01a1
+    projectPath: Library\metadata\3a\3a719f94c6db3544e9a02f9032fe01a1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\3a\3a719f94c6db3544e9a02f9032fe01a1.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\3a\3a719f94c6db3544e9a02f9032fe01a1.info
+    projectPath: Library\metadata\3a\3a719f94c6db3544e9a02f9032fe01a1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\66\667f12377b4257346a9876e847fe4754
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\66\667f12377b4257346a9876e847fe4754
+    projectPath: Library\metadata\66\667f12377b4257346a9876e847fe4754
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\66\667f12377b4257346a9876e847fe4754.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\66\667f12377b4257346a9876e847fe4754.info
+    projectPath: Library\metadata\66\667f12377b4257346a9876e847fe4754.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\7d\7db94fd97b910c84f8c73d52cd6550c4
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\7d\7db94fd97b910c84f8c73d52cd6550c4
+    projectPath: Library\metadata\7d\7db94fd97b910c84f8c73d52cd6550c4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\7d\7db94fd97b910c84f8c73d52cd6550c4.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\7d\7db94fd97b910c84f8c73d52cd6550c4.info
+    projectPath: Library\metadata\7d\7db94fd97b910c84f8c73d52cd6550c4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+    projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+    projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\87\877ef3585573ce44eab899298be23158
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\87\877ef3585573ce44eab899298be23158
+    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+    projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+    projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\f9\f95b01be6ac3d184f8498ce6ad708b6f
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\f9\f95b01be6ac3d184f8498ce6ad708b6f
+    projectPath: Library\metadata\f9\f95b01be6ac3d184f8498ce6ad708b6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\f9\f95b01be6ac3d184f8498ce6ad708b6f.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\f9\f95b01be6ac3d184f8498ce6ad708b6f.info
+    projectPath: Library\metadata\f9\f95b01be6ac3d184f8498ce6ad708b6f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+    projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+    projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\ProtocolInstance.json
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ProtocolInstance.json
+    projectPath: Library\ProtocolInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\SceneVisibilityState.asset
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Library\StateCache\Hierarchy\0c8ed4-mainStage.json
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Library\StateCache\Hierarchy\0c8ed4-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\0c8ed4-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: GMTK2020_OutOfControl\Temp\UnityLockfile
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-006811c8fcc064b459e5a331a0ef49de
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-006811c8fcc064b459e5a331a0ef49de
+    projectPath: Temp\UnityTempFile-006811c8fcc064b459e5a331a0ef49de
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-1d2376e548deefe4cb920624f8a31e20
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-1d2376e548deefe4cb920624f8a31e20
+    projectPath: Temp\UnityTempFile-1d2376e548deefe4cb920624f8a31e20
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-231d9cf358b49d44b8eba6d8be667ebb
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-231d9cf358b49d44b8eba6d8be667ebb
+    projectPath: Temp\UnityTempFile-231d9cf358b49d44b8eba6d8be667ebb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-25a5718d4cdd9ea49a5e275870acf5d2
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-25a5718d4cdd9ea49a5e275870acf5d2
+    projectPath: Temp\UnityTempFile-25a5718d4cdd9ea49a5e275870acf5d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-2b47b3a9f75e6744cb658f34e5138859
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-2b47b3a9f75e6744cb658f34e5138859
+    projectPath: Temp\UnityTempFile-2b47b3a9f75e6744cb658f34e5138859
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-3216a75ec7596b14cacd091e5a1f798a
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-3216a75ec7596b14cacd091e5a1f798a
+    projectPath: Temp\UnityTempFile-3216a75ec7596b14cacd091e5a1f798a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-420e9129035b1ef45aa5c95991bfaab6
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-420e9129035b1ef45aa5c95991bfaab6
+    projectPath: Temp\UnityTempFile-420e9129035b1ef45aa5c95991bfaab6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-57c4d7e1075c3314585061ac8359a818
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-57c4d7e1075c3314585061ac8359a818
+    projectPath: Temp\UnityTempFile-57c4d7e1075c3314585061ac8359a818
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-632e074e9310a8a4983e67635d4f50af
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-632e074e9310a8a4983e67635d4f50af
+    projectPath: Temp\UnityTempFile-632e074e9310a8a4983e67635d4f50af
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-636360d39d1123a4b96525f26a8e02bb
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-636360d39d1123a4b96525f26a8e02bb
+    projectPath: Temp\UnityTempFile-636360d39d1123a4b96525f26a8e02bb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-675815d3e669e0a48bca0c852118368c
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-675815d3e669e0a48bca0c852118368c
+    projectPath: Temp\UnityTempFile-675815d3e669e0a48bca0c852118368c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-7b98c3ee28808764bbd0927c10780b84
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-7b98c3ee28808764bbd0927c10780b84
+    projectPath: Temp\UnityTempFile-7b98c3ee28808764bbd0927c10780b84
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-81165402dad46864ab8615f197b6281c
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-81165402dad46864ab8615f197b6281c
+    projectPath: Temp\UnityTempFile-81165402dad46864ab8615f197b6281c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-84159ce50e6f69e48b8356110cc0d1b9
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-84159ce50e6f69e48b8356110cc0d1b9
+    projectPath: Temp\UnityTempFile-84159ce50e6f69e48b8356110cc0d1b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-8bf56af713ee6084684a2270c697a528
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-8bf56af713ee6084684a2270c697a528
+    projectPath: Temp\UnityTempFile-8bf56af713ee6084684a2270c697a528
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-8c58cebbfec85d647af46445413e911a
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-8c58cebbfec85d647af46445413e911a
+    projectPath: Temp\UnityTempFile-8c58cebbfec85d647af46445413e911a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-8ed6cdc8ab55101479220f4cebe96711
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-8ed6cdc8ab55101479220f4cebe96711
+    projectPath: Temp\UnityTempFile-8ed6cdc8ab55101479220f4cebe96711
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-b2736b5fdc041e542b9af04288ca6dc6
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-b2736b5fdc041e542b9af04288ca6dc6
+    projectPath: Temp\UnityTempFile-b2736b5fdc041e542b9af04288ca6dc6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-b6d84692aed72d64283445de2a26651d
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-b6d84692aed72d64283445de2a26651d
+    projectPath: Temp\UnityTempFile-b6d84692aed72d64283445de2a26651d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-b8f98b709a316b340936b0d44f73981d
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-b8f98b709a316b340936b0d44f73981d
+    projectPath: Temp\UnityTempFile-b8f98b709a316b340936b0d44f73981d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-bf69f035ab973524bbbefa06c02c080a
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-bf69f035ab973524bbbefa06c02c080a
+    projectPath: Temp\UnityTempFile-bf69f035ab973524bbbefa06c02c080a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-c12f6ff168763aa43820afe481199a39
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-c12f6ff168763aa43820afe481199a39
+    projectPath: Temp\UnityTempFile-c12f6ff168763aa43820afe481199a39
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-c163c52de0a4e4b4b8dd9eca39e27131
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-c163c52de0a4e4b4b8dd9eca39e27131
+    projectPath: Temp\UnityTempFile-c163c52de0a4e4b4b8dd9eca39e27131
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-d3ca1fc11c2d2074db5fb01e84376ded
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-d3ca1fc11c2d2074db5fb01e84376ded
+    projectPath: Temp\UnityTempFile-d3ca1fc11c2d2074db5fb01e84376ded
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-d7d841bf54334b74da539f5ac1bcd349
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-d7d841bf54334b74da539f5ac1bcd349
+    projectPath: Temp\UnityTempFile-d7d841bf54334b74da539f5ac1bcd349
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-db8393564aae3df4b8214f30357da588
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-db8393564aae3df4b8214f30357da588
+    projectPath: Temp\UnityTempFile-db8393564aae3df4b8214f30357da588
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-e742e83820ada494fa450631500db338
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-e742e83820ada494fa450631500db338
+    projectPath: Temp\UnityTempFile-e742e83820ada494fa450631500db338
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GMTK2020_OutOfControl\Temp\UnityTempFile-ee64b2ec2edd5954eaf5f4a697d0420f
+    fullPath: I:\Unity\Projects\GMTK2020\GMTK2020_OutOfControl\Temp\UnityTempFile-ee64b2ec2edd5954eaf5f4a697d0420f
+    projectPath: Temp\UnityTempFile-ee64b2ec2edd5954eaf5f4a697d0420f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
