@@ -2,7 +2,7 @@
 //
 //	Project: GMTK2020_OutOfControl
 //	Copyright: Indie Pirates
-//  Created on: 7/11/2020 6:05:09 PM
+//  Created on: 7/11/2020 6:16:14 PM
 //
 //=============================================================================================================================//
 
@@ -15,8 +15,8 @@ using UnityEngine;
 
 namespace GMTK2020_OutOfControl
 {
-	[CreateAssetMenu (menuName = "GMTK2020_OutOfControl/WorldControlData")]
-	public class WorldControlData : ScriptableObject
+	[CreateAssetMenu (menuName = "GMTK2020_OutOfControl/PlayerData")]
+	public class PlayerData : ScriptableObject
 	{
 		//=====================================================================================================================//
 		//================================================= Public Properties ==================================================//
@@ -24,15 +24,18 @@ namespace GMTK2020_OutOfControl
 
 		#region Public Properties
 
-		public float _rotationSpeed = 10f;
-		public float _rotationDampTime = 0.15f;
-		public float _resetRotationTime = 0.15f;
-		public Vector2 _rotationLimits = new Vector2(-45, 45);
-		public float _bumpForce = 500f;
-		public float _bumpCooldownTime = 0.5f;
-		public float _bumpDuration = 0.3f;
-		public AnimationCurve _bumpCurve;
+		public float _mass;
+		public float _gravityScale;
+		public float _maxSpeed;
+		public float _acceleration;
+		public float _linearDrag;
+		public float _angularDrag;
+		public PhysicsMaterial2D _physicsMaterial;
+
+		public float _groundCheckDistance = 0.2f;
+		public LayerMask _groundMask;
 		
 		#endregion
+
 	}
 }

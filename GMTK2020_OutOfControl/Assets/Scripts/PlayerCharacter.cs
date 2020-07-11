@@ -41,16 +41,7 @@ namespace GMTK2020_OutOfControl
 
 		#region Inspector Variables
 
-		[SerializeField] private float _mass;
-		[SerializeField] private float _gravityScale;
-		[SerializeField] private float _maxSpeed;
-		[SerializeField] private float _acceleration;
-		[SerializeField] private float _linearDrag;
-		[SerializeField] private float _angularDrag;
-		[SerializeField] private PhysicsMaterial2D _physicsMaterial;
-
-		[SerializeField] private float _groundCheckDistance = 0.1f;
-		[SerializeField] private LayerMask _groundMask;
+		[SerializeField] private PlayerData _data;
 		
 		#endregion
 
@@ -100,11 +91,11 @@ namespace GMTK2020_OutOfControl
 				var angle = Vector3.SignedAngle(velocity, Vector3.down, Vector3.forward);
 				checkDir = (Quaternion.AngleAxis(-angle, Vector3.back) * velocity).normalized;
 				Debug.DrawRay(_transform.position, velocity, Color.blue, Time.deltaTime);
-				Debug.DrawRay(_transform.position, checkDir * (_groundCheckDistance + _collider.radius), Color.red,
+				Debug.DrawRay(_transform.position, checkDir * (_data._groundCheckDistance + _collider.radius), Color.red,
 					Time.deltaTime);
 			}
 
-			_bIsGrounded = Physics2D.Raycast(_transform.position, checkDir, _groundCheckDistance + _collider.radius, _groundMask);
+			_bIsGrounded = Physics2D.Raycast(_transform.position, checkDir, _data._groundCheckDistance + _collider.radius, _data._groundMask);
 		}
 
 		#endregion
@@ -122,12 +113,12 @@ namespace GMTK2020_OutOfControl
 			_collider = GetComponent<CircleCollider2D>();
 			_transform = transform;
 
-			_rigidbody.drag = _linearDrag;
-			_rigidbody.mass = _mass;
-			_rigidbody.gravityScale = _gravityScale;
-			_rigidbody.angularDrag = _angularDrag;
+			_rigidbody.drag = _data._linearDrag;
+			_rigidbody.mass = _data._mass;
+			_rigidbody.gravityScale = _data._gravityScale;
+			_rigidbody.angularDrag = _data._angularDrag;
 
-			_collider.sharedMaterial = _physicsMaterial;
+			_collider.sharedMaterial = _data._physicsMaterial;
 		}
 		
 		#endregion

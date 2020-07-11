@@ -16,7 +16,7 @@ MonoBehaviour:
   _rotationDampTime: 0.15
   _resetRotationTime: 0.5
   _rotationLimits: {x: -45, y: 45}
-  _bumpForce: 3.5
+  _bumpForce: 5
   _bumpCooldownTime: 0.5
   _bumpDuration: 0.25
   _bumpCurve:
@@ -25,38 +25,38 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 1.9359117
-      outSlope: 1.9359117
+      inSlope: 0.16244778
+      outSlope: 0.16244778
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.10532309
+      outWeight: 0.08696508
     - serializedVersion: 3
       time: 0.49667576
       value: 0.0012358241
-      inSlope: -1.154306
-      outSlope: 1.8162508
+      inSlope: -0.13254857
+      outSlope: 0.15850769
       tangentMode: 1
       weightedMode: 0
-      inWeight: 0.18680775
-      outWeight: 0.15730721
+      inWeight: 0.23043606
+      outWeight: 0.20343193
     - serializedVersion: 3
       time: 0.7730155
       value: 0
-      inSlope: -1.9167978
-      outSlope: 1.9088551
+      inSlope: -0.16303481
+      outSlope: 0.13150893
       tangentMode: 1
       weightedMode: 0
-      inWeight: 0.18674256
-      outWeight: 0.22285807
+      inWeight: 0.3542306
+      outWeight: 0.2799971
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: -1.6833975
-      outSlope: -1.6833975
+      inSlope: -0.18180944
+      outSlope: -0.18180944
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.2465419
+      inWeight: 0.35421652
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2

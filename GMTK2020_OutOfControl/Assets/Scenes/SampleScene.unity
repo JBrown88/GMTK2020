@@ -757,55 +757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c80b642d1d0f9049864dacd8d8ced21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationSpeed: 25
-  _rotationDampTime: 0.15
-  _resetRotationTime: 0.5
-  _rotationLimits: {x: -45, y: 45}
-  _bumpForce: 5
-  _bumpCooldownTime: 0.5
-  _bumpDuration: 0.25
-  _bumpCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 1.9359117
-      outSlope: 1.9359117
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.10532309
-    - serializedVersion: 3
-      time: 0.49667576
-      value: 0.0012358241
-      inSlope: -1.154306
-      outSlope: 2.6756198
-      tangentMode: 1
-      weightedMode: 0
-      inWeight: 0.18680775
-      outWeight: 0.13529506
-    - serializedVersion: 3
-      time: 0.7730155
-      value: 0
-      inSlope: -1.9167978
-      outSlope: 1.9088551
-      tangentMode: 1
-      weightedMode: 0
-      inWeight: 0.18674256
-      outWeight: 0.22285807
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: -1.6833975
-      outSlope: -1.6833975
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.2465419
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  _data: {fileID: 11400000, guid: a5ee3c8e020a3754580462d885255ba0, type: 2}
   _resetRotation: 1
   _worldPivot: {fileID: 414151862}
 --- !u!1 &1059985440
