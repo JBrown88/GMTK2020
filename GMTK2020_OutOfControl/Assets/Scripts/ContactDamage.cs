@@ -2,22 +2,20 @@
 //
 //	Project: GMTK2020_OutOfControl
 //	Copyright: Indie Pirates
-//  Created on: 7/11/2020 1:14:28 PM
+//  Created on: 7/11/2020 7:04:43 PM
 //
 //=============================================================================================================================//
 
 
 #region Usings
 
-using System;
 using UnityEngine;
 
 #endregion
 
 namespace GMTK2020_OutOfControl
 {
-	[RequireComponent(typeof(CircleCollider2D), typeof(Rigidbody2D))]
-	public class PlayerCharacter : Singleton<PlayerCharacter>
+	public class ContactDamage : MonoBehaviour
 	{
 		//=====================================================================================================================//
 		//=================================================== Pending Tasks ===================================================//
@@ -40,9 +38,10 @@ namespace GMTK2020_OutOfControl
 		//=====================================================================================================================//
 
 		#region Inspector Variables
-
-		[SerializeField] private PlayerData _data;
 		
+		[SerializeField] private float _contactDamage = 25f;
+		[SerializeField] private float _pushbackForce = 5f;
+
 		#endregion
 
 		//=====================================================================================================================//
@@ -51,12 +50,6 @@ namespace GMTK2020_OutOfControl
 
 		#region Private Fields
 
-		[SerializeField, HideInInspector] private Rigidbody2D _rigidbody;
-		[SerializeField, HideInInspector] private CircleCollider2D _collider;
-
-		private Transform _transform;
-		private bool _bIsGrounded;
-		
 		#endregion
 
 		//=====================================================================================================================//
@@ -65,10 +58,6 @@ namespace GMTK2020_OutOfControl
 
 		#region Public Properties
 
-		public static bool IsGrounded => Instance._bIsGrounded;
-		public static Vector3 Position => Instance._transform.position;
-		public static Rigidbody2D Rigidbody => Instance._rigidbody;
-
 		#endregion
 
 		//=====================================================================================================================//
@@ -76,27 +65,17 @@ namespace GMTK2020_OutOfControl
 		//=====================================================================================================================//
 
 		#region Unity Callback Methods
-
-		private void Awake()
+		
+		private void OnCollisionEnter2D(Collision2D collision)
 		{
-			Initialize();
-		}
+			var pushback = (collision.transform.position - transform.position).normalized * _pushbackForce;
+			Debug.DrawRay(collision.contacts[0].point, pushback, Color.cyan, 5f);
 
-		private void FixedUpdate()
-		{
-			//TODO: detect ground in the correct direction based on the current world rotation
-			var checkDir = Vector3.down;
-			if (!Mathf.Approximately(_rigidbody.velocity.magnitude, 0f))
+			if (collision.otherRigidbody == PlayerCharacter.Rigidbody)
 			{
-				var velocity = _rigidbody.velocity.normalized;
-				var angle = Vector3.SignedAngle(velocity, Vector3.down, Vector3.forward);
-				checkDir = (Quaternion.AngleAxis(-angle, Vector3.back) * velocity).normalized;
-				Debug.DrawRay(_transform.position, velocity, Color.blue, Time.deltaTime);
-				Debug.DrawRay(_transform.position, checkDir * (_data._groundCheckDistance + _collider.radius), Color.red,
-					Time.deltaTime);
+				PlayerCharacter.ApplyImpulse(pushback);
+				PlayerCharacter.DealDamage(_contactDamage);
 			}
-
-			_bIsGrounded = Physics2D.Raycast(_transform.position, checkDir, _data._groundCheckDistance + _collider.radius, _data._groundMask);
 		}
 
 		#endregion
@@ -107,21 +86,6 @@ namespace GMTK2020_OutOfControl
 
 		#region Private Methods
 
-		[ContextMenu("Initialize")]
-		private void Initialize()
-		{
-			_rigidbody = GetComponent<Rigidbody2D>();
-			_collider = GetComponent<CircleCollider2D>();
-			_transform = transform;
-
-			_rigidbody.drag = _data._linearDrag;
-			_rigidbody.mass = _data._mass;
-			_rigidbody.gravityScale = _data._gravityScale;
-			_rigidbody.angularDrag = _data._angularDrag;
-
-			_collider.sharedMaterial = _data._physicsMaterial;
-		}
-		
 		#endregion
 
 		//=====================================================================================================================//
@@ -129,22 +93,6 @@ namespace GMTK2020_OutOfControl
 		//=====================================================================================================================//
 
 		#region Public Methods
-
-		public static void ApplyForce(Vector3 force)
-		{
-			Instance._rigidbody.AddForce(force, ForceMode2D.Force);
-		}
-
-		public static void ApplyImpulse(Vector3 force)
-		{
-			Instance._rigidbody.AddForce(force, ForceMode2D.Impulse);
-			Instance._bIsGrounded = false;
-		}
-
-		public static void DealDamage(float inDamage)
-		{
-			
-		}
 
 		#endregion
 
@@ -161,7 +109,6 @@ namespace GMTK2020_OutOfControl
 		//=====================================================================================================================//
 
 		#region Debugging & Testing
-
 
 		#endregion
 	}

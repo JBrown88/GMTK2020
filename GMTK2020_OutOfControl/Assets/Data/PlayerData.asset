@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   _mass: 0.65
-  _gravityScale: 2
+  _gravityScale: 1
   _maxSpeed: 50
   _acceleration: 20
   _linearDrag: 0.15
   _angularDrag: 0.05
   _physicsMaterial: {fileID: 6200000, guid: 0b6ff6cb062f33b4b83860b2b9efdf44, type: 2}
-  _groundCheckDistance: 0.2
+  _groundCheckDistance: 0.35
   _groundMask:
     serializedVersion: 2
     m_Bits: 256
