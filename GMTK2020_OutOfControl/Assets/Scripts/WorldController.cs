@@ -110,7 +110,7 @@ namespace GMTK2020_OutOfControl
 
 			if (!_data._useFreeRotation)
 			{
-				targetRotation = targetRotation.Clamp(_data._rotationLimits);
+				//targetRotation = targetRotation.Clamp(_data._rotationLimits);
 			}
 
 			_turnAngle = Mathf.SmoothDampAngle(_turnAngle, targetRotation, ref _rotationDamp, _data._rotationDampTime);

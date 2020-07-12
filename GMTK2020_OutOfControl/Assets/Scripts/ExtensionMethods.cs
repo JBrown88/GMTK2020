@@ -35,7 +35,7 @@ namespace GMTK2020_OutOfControl
 		
 		public static float Lerp(this Vector2 range, float value)
 		{
-			return Mathf.Lerp(range.x, range.y, value.Clamp01());
+			return Mathf.Lerp(range.x, range.y, Mathf.Clamp01(value));
 		}
 		
 		public static bool IsNullOrEmpty(this string original)

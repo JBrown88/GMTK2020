@@ -23,7 +23,6 @@
               <e p="ScriptFormatter.cs" t="Include" />
               <e p="TransformResetEditor.cs" t="Include" />
             </e>
-            <e p="MathTools.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
           </e>
         </e>
