@@ -205,7 +205,7 @@ namespace GMTK2020_OutOfControl
 			Instance._gameOverScreen.SetActive(true);
 			Instance._inGameMenu.SetActive(false);
 			Instance.DisableCharater();
-			Instance.UnloadCurrentLevel();
+			Instance.Load(Instance._currentSceneName);
 		}
 
 		public void Quit()
@@ -230,7 +230,7 @@ namespace GMTK2020_OutOfControl
 			_mainMenu.SetActive(false);
 			_inGameMenu.SetActive(false);
 			
-			yield return new WaitForSeconds(1.0f);
+			yield return new WaitForSeconds(0.5f);
 			
 			_loadingScreen.SetActive(true);
 			
@@ -256,7 +256,7 @@ namespace GMTK2020_OutOfControl
 				
 				EnableCharacter(playerStart.transform.position);
 				
-				yield return new WaitForSeconds(0.5f);
+				yield return new WaitForSeconds(0.25f);
 				
 				_loadingScreen.SetActive(false);
 				_inGameMenu.SetActive(true);
