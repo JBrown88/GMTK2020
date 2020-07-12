@@ -99,6 +99,7 @@ namespace GMTK2020_OutOfControl
 		private void OnDrawGizmos()
 		{
 			transform.Clamp2D();
+			Gizmos.color = Color.white;
 			Gizmos.DrawWireSphere(transform.position, 0.65f);
 		}
 

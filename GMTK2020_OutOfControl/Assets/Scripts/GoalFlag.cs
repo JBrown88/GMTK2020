@@ -67,6 +67,24 @@ namespace GMTK2020_OutOfControl
 
 		#region Unity Callback Methods
 
+		private void OnTriggerEnter2D(Collider2D other)
+		{
+			if(!gameObject.activeSelf || other != PlayerCharacter.Collider)
+				return;
+			
+			NextLevel();
+			gameObject.SetActive(false);
+		}
+
+		private void OnTriggerStay2D(Collider2D other)
+		{
+			if(!gameObject.activeSelf || other != PlayerCharacter.Collider)
+				return;
+			
+			NextLevel();
+			gameObject.SetActive(false);
+		}
+
 		#endregion
 
 		//=====================================================================================================================//
@@ -74,6 +92,11 @@ namespace GMTK2020_OutOfControl
 		//=====================================================================================================================//
 
 		#region Private Methods
+
+		private void NextLevel()
+		{
+			GameManager.TriggerLevelLoading(_nextLevelIdx);
+		}
 
 		#endregion
 

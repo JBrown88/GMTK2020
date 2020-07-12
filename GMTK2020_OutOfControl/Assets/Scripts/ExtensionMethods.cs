@@ -49,5 +49,12 @@ namespace GMTK2020_OutOfControl
 			position.z = 0;
 			transform.position = position;
 		}
+
+		public static void ClampVelocity(this Rigidbody2D rigidbody, float maxSpeed)
+		{
+			var velocity = rigidbody.velocity;
+			velocity = velocity.normalized * Mathf.Min(velocity.magnitude, maxSpeed);
+			rigidbody.velocity = velocity;
+		}
 	}
 }
