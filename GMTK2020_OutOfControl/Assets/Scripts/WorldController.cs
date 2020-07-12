@@ -43,7 +43,6 @@ namespace GMTK2020_OutOfControl
 
 		[SerializeField] private WorldControlData _data;
 		[SerializeField] private Transform _worldPivot;
-		//[SerializeField] private CinemachinePathBase _pivotPath;
 		
 		#endregion
 
@@ -93,8 +92,7 @@ namespace GMTK2020_OutOfControl
 		private void Update()
 		{
 			var rotateInput =  -Input.GetAxis("Horizontal");
-			//var pointOnPath = _pivotPath.FindClosestPoint(PlayerCharacter.Position, 0, 3, 5);
-			_worldPivot.position = PlayerCharacter.Position;//_pivotPath.EvaluatePosition(pointOnPath);
+			_worldPivot.position = PlayerCharacter.Position;
 			
 			float targetRotation;
 			if (!_data._resetRotation)
@@ -126,7 +124,7 @@ namespace GMTK2020_OutOfControl
 
 					if (PlayerCharacter.IsGrounded)
 					{
-						PlayerCharacter.ApplyImpulse(_data._bumpForce * _transform.up);
+						PlayerCharacter.ApplyImpulse(_data._bumpForce * Vector3.up);
 					}
 
 					StartCoroutine(Bump());
@@ -165,7 +163,7 @@ namespace GMTK2020_OutOfControl
 			while (animTime < _data._bumpDuration)
 			{
 				var yOffset = _data._bumpCurve.Evaluate(animTime / _data._bumpDuration);
-				_transform.position = baseLocation + (yOffset * _data._bumpForce * transform.up);
+				_transform.position = baseLocation + (yOffset * _data._bumpForce * Vector3.up);
 				yield return null;
 				animTime += Time.deltaTime;
 			}

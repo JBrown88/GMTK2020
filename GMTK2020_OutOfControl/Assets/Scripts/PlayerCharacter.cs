@@ -32,6 +32,9 @@ namespace GMTK2020_OutOfControl
 		//=====================================================================================================================//
 
 		#region Internal Classes
+		
+		private static readonly int HitVerticalID = Animator.StringToHash("Hit_Vertical");
+		private static readonly int HitHorizontalID = Animator.StringToHash("Hit_Horizontal");
 
 		#endregion
 
@@ -54,13 +57,12 @@ namespace GMTK2020_OutOfControl
 		[SerializeField, HideInInspector] private Rigidbody2D _rigidbody;
 		[SerializeField, HideInInspector] private CircleCollider2D _collider;
 		[SerializeField, HideInInspector] private Animator _animator;
+		[SerializeField, HideInInspector] private Transform _transform;
 		
-		private Transform _transform;
 		private bool _bIsGrounded;
 		private Vector3 _lastFrameVelocity;
+		private Vector3 _groundNormal;
 		
-		private static readonly int HitVerticalID = Animator.StringToHash("Hit_Vertical");
-		private static readonly int HitHorizontalID = Animator.StringToHash("Hit_Horizontal");
 
 		#endregion
 
@@ -73,6 +75,7 @@ namespace GMTK2020_OutOfControl
 		public static bool IsGrounded => Instance._bIsGrounded;
 		public static Vector3 Position => Instance._transform.position;
 		public static Rigidbody2D Rigidbody => Instance._rigidbody;
+		public static Vector3 GroundNormal => Instance._groundNormal;
 
 		#endregion
 
@@ -89,27 +92,22 @@ namespace GMTK2020_OutOfControl
 
 		private void FixedUpdate()
 		{
-			//TODO: detect ground in the correct direction based on the current world rotation
-			var checkDir = Vector3.down;
-			if (!Mathf.Approximately(_rigidbody.velocity.magnitude, 0f))
+			var hit = Physics2D.OverlapCircle(Position, _collider.radius * _data._groundCheckMultiplier, _data._groundMask);
+			_bIsGrounded = hit != null;
+			if(_bIsGrounded)
 			{
-				var velocity = _rigidbody.velocity.normalized;
-				var angle = Vector3.SignedAngle(velocity, Vector3.down, Vector3.forward);
-				checkDir = (Quaternion.AngleAxis(-angle, Vector3.back) * velocity).normalized;
-				Debug.DrawRay(_transform.position, velocity, Color.blue, Time.deltaTime);
-				Debug.DrawRay(_transform.position, checkDir * (_data._groundCheckDistance + _collider.radius), Color.red,
-					Time.deltaTime);
+				_groundNormal = -(hit.transform.position - _transform.position);
 			}
-
+			
 			_lastFrameVelocity = _rigidbody.velocity;
-			_bIsGrounded = Physics2D.Raycast(_transform.position, checkDir, _data._groundCheckDistance + _collider.radius, _data._groundMask);
 		}
 
 		private void OnCollisionEnter2D(Collision2D other)
 		{
 			if (_lastFrameVelocity.magnitude >= _data._hitAnimationThreshold)
 			{
-				_animator.SetTrigger(HitVerticalID);
+				var dot = Vector3.Dot(_lastFrameVelocity.normalized, _transform.up).Abs();
+				_animator.SetTrigger(dot >= 0.5f ? HitVerticalID : HitHorizontalID);
 			}
 		}
 
@@ -157,6 +155,12 @@ namespace GMTK2020_OutOfControl
 			Instance._bIsGrounded = false;
 		}
 
+		public static void ApplyImpulse(float force)
+		{
+			Instance._rigidbody.AddForce(force * Instance._groundNormal, ForceMode2D.Impulse);
+			Instance._bIsGrounded = false;
+		}
+
 		public static void DealDamage(float inDamage)
 		{
 			
@@ -178,6 +182,11 @@ namespace GMTK2020_OutOfControl
 
 		#region Debugging & Testing
 
+		private void OnDrawGizmos()
+		{
+			//Gizmos.color = Color.red;
+			//Gizmos.DrawWireSphere(transform.position, _collider.radius * _data._groundCheckMultiplier);
+		}
 
 		#endregion
 	}

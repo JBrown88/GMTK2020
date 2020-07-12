@@ -971,6 +971,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 948669615}
   _collider: {fileID: 948669616}
   _animator: {fileID: 0}
+  _transform: {fileID: 0}
 --- !u!50 &948669615
 Rigidbody2D:
   serializedVersion: 4

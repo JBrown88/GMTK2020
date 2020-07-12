@@ -34,6 +34,7 @@ namespace GMTK2020_OutOfControl
 
 		public float _hitAnimationThreshold = 10f;
 		public float _groundCheckDistance = 0.2f;
+		public float _groundCheckMultiplier = 1.35f;
 		public LayerMask _groundMask;
 		
 		#endregion
