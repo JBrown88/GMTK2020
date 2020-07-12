@@ -96,6 +96,13 @@ namespace GMTK2020_OutOfControl
 			_playerCharacter.SetActive(false);
 			_gameOverScreen.SetActive(false);
 			_inGameMenu.SetActive(false);
+			_endCreditsScreen.SetActive(false);
+		}
+
+		private void Update()
+		{
+			//TODO: pause button
+			//TODO: quit game button
 		}
 
 		#endregion
@@ -134,9 +141,6 @@ namespace GMTK2020_OutOfControl
 		private void DisableCharater()
 		{
 			_playerCharacter.SetActive(false);
-			
-			//PlayerCharacter.Rigidbody.Sleep();
-			//PlayerCharacter.Rigidbody.simulated = false;
 		}
 
 		#endregion
@@ -152,13 +156,14 @@ namespace GMTK2020_OutOfControl
 			PlayerCharacter.Rigidbody.simulated = false;
 			PlayerCharacter.Rigidbody.Sleep();
 			
-			Instance._inGameMenu.SetActive(false);
-			Instance._playerCharacter.SetActive(false);
-			Instance._loadingScreen.SetActive(true);
-			
 			if(levelIdx == LastSceneIndex)
 			{
 				//TODO: show end screen
+				Instance._endCreditsScreen.SetActive(true);
+				Instance.UnloadCurrentLevel();
+				Instance.DisableCharater();
+				Instance._isReady = false;
+				Instance._inGameMenu.SetActive(false);
 			}
 			else
 			{	
@@ -180,17 +185,9 @@ namespace GMTK2020_OutOfControl
 		{
 			_currentSceneName = "Template0";
 			_loadingScreen.SetActive(true);
+			_endCreditsScreen.SetActive(false);
 			_mainMenu.SetActive(false);
 			Load(_startingLevelIdx);
-		}
-
-		public static void OnGameOver()
-		{
-			Instance._isReady = false;
-			Instance.UnloadCurrentLevel();
-			Instance._gameOverScreen.SetActive(true);
-			Instance.DisableCharater();
-			Instance._inGameMenu.SetActive(false);
 		}
 
 		public void GameOverReturn()
@@ -199,6 +196,21 @@ namespace GMTK2020_OutOfControl
 			_isFirstLoad = true;
 			_mainMenu.SetActive(true);
 			_gameOverScreen.SetActive(false);
+			_endCreditsScreen.SetActive(false);
+		}
+
+		public static void NotifyPlayerDead()
+		{
+			Instance._isReady = false;
+			Instance._gameOverScreen.SetActive(true);
+			Instance._inGameMenu.SetActive(false);
+			Instance.DisableCharater();
+			Instance.UnloadCurrentLevel();
+		}
+
+		public void Quit()
+		{
+			Application.Quit();
 		}
 
 		#endregion
@@ -212,14 +224,15 @@ namespace GMTK2020_OutOfControl
 		private IEnumerator LoadAsync(string inSceneName)
 		{
 			_isReady = false;
-			yield return null;
 			
-			_loadingScreen.SetActive(true);
+			
 			_gameOverScreen.SetActive(false);
 			_mainMenu.SetActive(false);
 			_inGameMenu.SetActive(false);
 			
+			yield return new WaitForSeconds(1.0f);
 			
+			_loadingScreen.SetActive(true);
 			
 			if(!_isFirstLoad)
 				UnloadCurrentLevel();

@@ -80,13 +80,13 @@ namespace GMTK2020_OutOfControl
 
 		private void Update()
 		{
-			var curFill = _hpBar.fillAmount;
+			/*var curFill = _hpBar.fillAmount;
 			var targetFill = Mathf.Clamp01(_curHp / _maxHP);
 			_hpBar.fillAmount = Mathf.SmoothDamp(curFill, targetFill, ref _hpAnimDamp, _hpAnimTime);
 			if (Mathf.Approximately(curFill, targetFill))
 			{
 				enabled = false;
-			}
+			}*/
 		}
 
 		#endregion
