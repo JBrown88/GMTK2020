@@ -17,6 +17,7 @@ using UnityEngine;
 namespace GMTK2020_OutOfControl
 {
 	[RequireComponent(typeof(CircleCollider2D), typeof(Rigidbody2D), typeof(Animator))]
+	[RequireComponent(typeof(HitPoints))]
 	public class PlayerCharacter : Singleton<PlayerCharacter>
 	{
 		//=====================================================================================================================//
@@ -45,7 +46,7 @@ namespace GMTK2020_OutOfControl
 		#region Inspector Variables
 
 		[SerializeField] private PlayerData _data;
-		
+		[SerializeField] private HitPoints _hp;
 		#endregion
 
 		//=====================================================================================================================//
@@ -75,8 +76,8 @@ namespace GMTK2020_OutOfControl
 		public static bool IsGrounded => Instance._bIsGrounded;
 		public static Vector3 Position
 		{
-			get => Instance._transform.position;
-			set => Instance._transform.position = value;
+			get => Instance.transform.position;
+			set => Instance.transform.position = value;
 		}
 
 		public static Rigidbody2D Rigidbody => Instance._rigidbody;
@@ -91,9 +92,9 @@ namespace GMTK2020_OutOfControl
 
 		#region Unity Callback Methods
 
-		private void Awake()
+		private void Start()
 		{
-			Initialize();
+			InitializeSelf();
 		}
 
 		private void FixedUpdate()
@@ -128,13 +129,15 @@ namespace GMTK2020_OutOfControl
 		#region Private Methods
 
 		[ContextMenu("Initialize")]
-		protected override void Initialize()
+		public void InitializeSelf()
 		{
 			_rigidbody = GetComponent<Rigidbody2D>();
 			_animator = GetComponent<Animator>();
 			_collider = GetComponent<CircleCollider2D>();
-			_transform = transform;
+			_hp = GetComponent<HitPoints>();
 
+			_transform = transform;
+			
 			_rigidbody.sharedMaterial = _data._physicsMaterial;
 			_rigidbody.drag = _data._linearDrag;
 			_rigidbody.mass = _data._mass;
@@ -171,12 +174,16 @@ namespace GMTK2020_OutOfControl
 
 		public static void DealDamage(float inDamage)
 		{
-			
+			Instance._hp.AddValue(-inDamage);
+			if (!Instance._hp.IsAlive())
+			{
+				GameManager.OnGameOver();
+			}
 		}
 
 		public static void SetRotation(Quaternion inRot)
 		{
-			Instance._transform.rotation = inRot;
+			Instance.transform.rotation = inRot;
 		}
 		
 		#endregion

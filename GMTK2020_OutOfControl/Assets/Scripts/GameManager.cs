@@ -38,6 +38,7 @@ namespace GMTK2020_OutOfControl
 		#region Internal Classes
 
 		private const uint LastSceneIndex = 10;
+		private static Action _onLoadingCallback;
 
 		#endregion
 
@@ -65,7 +66,9 @@ namespace GMTK2020_OutOfControl
 		#region Private Fields
 
 		private string _currentSceneName = "Template0";
-
+		private bool _isReady = false;
+		private bool _isFirstLoad = true;
+		
 		#endregion
 
 		//=====================================================================================================================//
@@ -73,8 +76,8 @@ namespace GMTK2020_OutOfControl
 		//=====================================================================================================================//
 
 		#region Public Properties
-		
-		
+
+		public static bool IsReady => Instance._isReady;
 
 		#endregion
 
@@ -93,11 +96,6 @@ namespace GMTK2020_OutOfControl
 			_playerCharacter.SetActive(false);
 			_gameOverScreen.SetActive(false);
 			_inGameMenu.SetActive(false);
-			
-			SceneManager.sceneLoaded += (scene, mode) =>
-			{
-				OnLevelLoadedCallback(scene);
-			};
 		}
 
 		#endregion
@@ -108,37 +106,37 @@ namespace GMTK2020_OutOfControl
 
 		#region Private Methods
 		
-		private void OnLevelLoadedCallback(Scene scene)
-		{
-			var playerStart = FindObjectOfType<PlayerStart>();
-			if (playerStart)
-			{
-				_loadingScreen.SetActive(false);
-				_gameOverScreen.SetActive(false);
-				_mainMenu.SetActive(false);
-				
-				_inGameMenu.SetActive(true);
-				_playerCharacter.SetActive(true);
-				PlayerCharacter.Rigidbody.WakeUp();
-				PlayerCharacter.Rigidbody.simulated = true;
-				
-				_currentSceneName = scene.name;
-				PlayerCharacter.Position = playerStart.transform.position;
-				PlayerCharacter.SetRotation(Quaternion.identity);
-			}
-		}
-		
 		private void Load(string inSceneName)
-		{
+		{	
 			if (!inSceneName.IsNullOrEmpty())
 			{
-				SceneManager.LoadScene(inSceneName, LoadSceneMode.Additive);
+				StartCoroutine( Instance.LoadAsync(inSceneName));
 			}
 		}
 
 		private void UnloadCurrentLevel()
 		{
+			DisableCharater();
 			SceneManager.UnloadSceneAsync(_currentSceneName);
+		}
+
+		private void EnableCharacter(Vector3 startPosition)
+		{
+			_playerCharacter.SetActive(true);
+				
+			PlayerCharacter.Position = startPosition;
+			PlayerCharacter.SetRotation(Quaternion.identity);
+				
+			PlayerCharacter.Rigidbody.WakeUp();
+			PlayerCharacter.Rigidbody.simulated = true;
+		}
+
+		private void DisableCharater()
+		{
+			_playerCharacter.SetActive(false);
+			
+			//PlayerCharacter.Rigidbody.Sleep();
+			//PlayerCharacter.Rigidbody.simulated = false;
 		}
 
 		#endregion
@@ -164,7 +162,6 @@ namespace GMTK2020_OutOfControl
 			}
 			else
 			{	
-				Instance.UnloadCurrentLevel();
 				Instance.Load(levelIdx);
 			}
 				
@@ -187,13 +184,19 @@ namespace GMTK2020_OutOfControl
 			Load(_startingLevelIdx);
 		}
 
-		public void OnGameOver()
+		public static void OnGameOver()
 		{
-			
+			Instance._isReady = false;
+			Instance.UnloadCurrentLevel();
+			Instance._gameOverScreen.SetActive(true);
+			Instance.DisableCharater();
+			Instance._inGameMenu.SetActive(false);
 		}
 
 		public void GameOverReturn()
 		{
+			_isReady = false;
+			_isFirstLoad = true;
 			_mainMenu.SetActive(true);
 			_gameOverScreen.SetActive(false);
 		}
@@ -206,9 +209,50 @@ namespace GMTK2020_OutOfControl
 
 		#region Coroutines
 
-		private IEnumerator LoadAsync(Scene inScene)
+		private IEnumerator LoadAsync(string inSceneName)
 		{
+			_isReady = false;
 			yield return null;
+			
+			_loadingScreen.SetActive(true);
+			_gameOverScreen.SetActive(false);
+			_mainMenu.SetActive(false);
+			_inGameMenu.SetActive(false);
+			
+			
+			
+			if(!_isFirstLoad)
+				UnloadCurrentLevel();
+			
+			yield return new WaitForSeconds(0.5f);
+			
+			var asyncOperation = SceneManager.LoadSceneAsync(inSceneName, LoadSceneMode.Additive);
+
+			while (!asyncOperation.isDone)
+			{
+				yield return null;
+			}
+			
+			_currentSceneName = inSceneName;
+			
+			var playerStart = FindObjectOfType<PlayerStart>();
+			if (playerStart)
+			{
+				_gameOverScreen.SetActive(false);
+				_mainMenu.SetActive(false);
+				
+				EnableCharacter(playerStart.transform.position);
+				
+				yield return new WaitForSeconds(0.5f);
+				
+				_loadingScreen.SetActive(false);
+				_inGameMenu.SetActive(true);
+			}
+			
+			yield return new WaitForSeconds(0.25f);
+
+			_isFirstLoad = false;
+			_isReady = true;
 		}
 		
 		

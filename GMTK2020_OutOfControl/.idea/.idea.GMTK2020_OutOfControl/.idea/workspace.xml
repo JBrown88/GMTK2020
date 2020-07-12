@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498f660c-304e-4cbb-8c58-1ffde5ba5a7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Controllers.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Controllers.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtensionMethods.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtensionMethods.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GoalFlag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GoalFlag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_01.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_01.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_02.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_02.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_03.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_03.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_04.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_04.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_05.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_05.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_06.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_06.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_07.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_07.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_08.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_08.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_09.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_09.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_10.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_10.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_11.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_11.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_12.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_12.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_13.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_13.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_14.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_14.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_15.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_15.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_16.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_16.tga.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/../../A Dark Path/Assets/Scripts/DarkestPath/Interactive Elements/ContactDamage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BCCB16A8-8EC4-456D-BF07-978C418F407B/80/3d5bb7c7/PresetSelector.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Controllers.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/07/0440785d/PhysicsScene2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" root0="FORCE_HIGHLIGHTING" />
@@ -87,17 +66,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ContactDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorldControlData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MathUtils.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GoalFlag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HitPoints.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExtensionMethods.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -153,7 +132,7 @@
       <updated>1594434472650</updated>
       <workItem from="1594434473837" duration="3014000" />
       <workItem from="1594439207803" duration="2594000" />
-      <workItem from="1594443320375" duration="38818000" />
+      <workItem from="1594443320375" duration="41391000" />
     </task>
     <servers />
   </component>

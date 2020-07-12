@@ -89,6 +89,9 @@ namespace GMTK2020_OutOfControl
 		
 		private void Update()
 		{
+			if(!GameManager.IsReady)
+				return;
+			
 			var rotateInput =  -Input.GetAxis("Horizontal");
 			_worldPivot.position = PlayerCharacter.Position;
 			
