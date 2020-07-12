@@ -42,7 +42,6 @@ namespace GMTK2020_OutOfControl
 		#region Inspector Variables
 
 		[SerializeField] private WorldControlData _data;
-		[SerializeField] private bool _resetRotation;
 		[SerializeField] private Transform _worldPivot;
 		//[SerializeField] private CinemachinePathBase _pivotPath;
 		
@@ -98,7 +97,7 @@ namespace GMTK2020_OutOfControl
 			_worldPivot.position = PlayerCharacter.Position;//_pivotPath.EvaluatePosition(pointOnPath);
 			
 			float targetRotation;
-			if (!_resetRotation)
+			if (!_data._resetRotation)
 			{
 				_curRotation += rotateInput * _data._rotationSpeed * Mathf.Deg2Rad;
 				targetRotation = _curRotation;
@@ -109,8 +108,11 @@ namespace GMTK2020_OutOfControl
 				_curRotation = Mathf.SmoothDamp(_curRotation, _data._rotationLimits.Lerp(lerpValue), ref _targetRotationDamp, _data._resetRotationTime);
 				targetRotation = _curRotation;
 			}
-			
-			targetRotation = targetRotation.Clamp(_data._rotationLimits);
+
+			if (!_data._useFreeRotation)
+			{
+				targetRotation = targetRotation.Clamp(_data._rotationLimits);
+			}
 
 			_turnAngle = Mathf.SmoothDampAngle(_turnAngle, targetRotation, ref _rotationDamp, _data._rotationDampTime);
 			var angleDelta = Mathf.DeltaAngle(_transform.eulerAngles.z, _turnAngle);

@@ -16,7 +16,7 @@ using UnityEngine;
 
 namespace GMTK2020_OutOfControl
 {
-	[RequireComponent(typeof(CircleCollider2D), typeof(Rigidbody2D))]
+	[RequireComponent(typeof(CircleCollider2D), typeof(Rigidbody2D), typeof(Animator))]
 	public class PlayerCharacter : Singleton<PlayerCharacter>
 	{
 		//=====================================================================================================================//
@@ -53,10 +53,15 @@ namespace GMTK2020_OutOfControl
 
 		[SerializeField, HideInInspector] private Rigidbody2D _rigidbody;
 		[SerializeField, HideInInspector] private CircleCollider2D _collider;
-
+		[SerializeField, HideInInspector] private Animator _animator;
+		
 		private Transform _transform;
 		private bool _bIsGrounded;
+		private Vector3 _lastFrameVelocity;
 		
+		private static readonly int HitVerticalID = Animator.StringToHash("Hit_Vertical");
+		private static readonly int HitHorizontalID = Animator.StringToHash("Hit_Horizontal");
+
 		#endregion
 
 		//=====================================================================================================================//
@@ -67,7 +72,8 @@ namespace GMTK2020_OutOfControl
 
 		public static bool IsGrounded => Instance._bIsGrounded;
 		public static Vector3 Position => Instance._transform.position;
-		
+		public static Rigidbody2D Rigidbody => Instance._rigidbody;
+
 		#endregion
 
 		//=====================================================================================================================//
@@ -95,7 +101,16 @@ namespace GMTK2020_OutOfControl
 					Time.deltaTime);
 			}
 
+			_lastFrameVelocity = _rigidbody.velocity;
 			_bIsGrounded = Physics2D.Raycast(_transform.position, checkDir, _data._groundCheckDistance + _collider.radius, _data._groundMask);
+		}
+
+		private void OnCollisionEnter2D(Collision2D other)
+		{
+			if (_lastFrameVelocity.magnitude >= _data._hitAnimationThreshold)
+			{
+				_animator.SetTrigger(HitVerticalID);
+			}
 		}
 
 		#endregion
@@ -110,9 +125,11 @@ namespace GMTK2020_OutOfControl
 		private void Initialize()
 		{
 			_rigidbody = GetComponent<Rigidbody2D>();
+			_animator = GetComponent<Animator>();
 			_collider = GetComponent<CircleCollider2D>();
 			_transform = transform;
 
+			_rigidbody.sharedMaterial = _data._physicsMaterial;
 			_rigidbody.drag = _data._linearDrag;
 			_rigidbody.mass = _data._mass;
 			_rigidbody.gravityScale = _data._gravityScale;
@@ -138,6 +155,11 @@ namespace GMTK2020_OutOfControl
 		{
 			Instance._rigidbody.AddForce(force, ForceMode2D.Impulse);
 			Instance._bIsGrounded = false;
+		}
+
+		public static void DealDamage(float inDamage)
+		{
+			
 		}
 
 		#endregion
