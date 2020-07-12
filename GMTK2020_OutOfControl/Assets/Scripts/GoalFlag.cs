@@ -73,7 +73,6 @@ namespace GMTK2020_OutOfControl
 				return;
 			
 			NextLevel();
-			gameObject.SetActive(false);
 		}
 
 		private void OnTriggerStay2D(Collider2D other)
@@ -82,7 +81,6 @@ namespace GMTK2020_OutOfControl
 				return;
 			
 			NextLevel();
-			gameObject.SetActive(false);
 		}
 
 		#endregion

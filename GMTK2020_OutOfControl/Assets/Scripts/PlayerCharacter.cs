@@ -10,6 +10,7 @@
 #region Usings
 
 using System;
+using System.Collections;
 using UnityEngine;
 
 #endregion
@@ -36,6 +37,8 @@ namespace GMTK2020_OutOfControl
 		
 		private static readonly int HitVerticalID = Animator.StringToHash("Hit_Vertical");
 		private static readonly int HitHorizontalID = Animator.StringToHash("Hit_Horizontal");
+		private static readonly int DeadID = Animator.StringToHash("Dead");
+		private static readonly int AnimSpeedID = Animator.StringToHash("AnimSpeed");
 
 		#endregion
 
@@ -63,7 +66,6 @@ namespace GMTK2020_OutOfControl
 		private bool _bIsGrounded;
 		private Vector3 _lastFrameVelocity;
 		private Vector3 _groundNormal;
-		
 
 		#endregion
 
@@ -174,7 +176,8 @@ namespace GMTK2020_OutOfControl
 
 		public static void DealDamage(float inDamage)
 		{
-			GameManager.NotifyPlayerDead();
+			Instance.StartCoroutine(Instance.PlayDeathSequence());
+			
 		}
 
 		public static void SetRotation(Quaternion inRot)
@@ -190,18 +193,28 @@ namespace GMTK2020_OutOfControl
 
 		#region Coroutines
 
-		#endregion
-
-		//=====================================================================================================================//
-		//================================================ Debugging & Testing ================================================//
-		//=====================================================================================================================//
-
-		#region Debugging & Testing
-
-		private void OnDrawGizmos()
+		private IEnumerator PlayDeathSequence()
 		{
-			//Gizmos.color = Color.red;
-			//Gizmos.DrawWireSphere(transform.position, _collider.radius * _data._groundCheckMultiplier);
+			yield return null;
+			_rigidbody.Sleep();
+			_rigidbody.simulated = false;
+			_animator.SetTrigger(DeadID);
+			yield return new WaitForSeconds(0.1f);
+
+			var frameCount = 30;
+			
+			while (frameCount > 15)
+			{
+				frameCount--;
+				Time.timeScale = (frameCount / 30f);
+				_animator.SetFloat(AnimSpeedID, 1/Time.deltaTime);
+				print(Time.timeScale);
+				yield return null;
+			}
+
+			Time.timeScale = 1;
+			yield return  new WaitForSeconds(0.5f);
+			GameManager.NotifyPlayerDead();
 		}
 
 		#endregion

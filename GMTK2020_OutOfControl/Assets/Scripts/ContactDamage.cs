@@ -9,12 +9,14 @@
 
 #region Usings
 
+using System;
 using UnityEngine;
 
 #endregion
 
 namespace GMTK2020_OutOfControl
 {
+	[RequireComponent(typeof(Collider2D), typeof(Rigidbody2D))]
 	public class ContactDamage : MonoBehaviour
 	{
 		//=====================================================================================================================//
@@ -50,6 +52,8 @@ namespace GMTK2020_OutOfControl
 
 		#region Private Fields
 
+		private Rigidbody2D _rigidbody;
+
 		#endregion
 
 		//=====================================================================================================================//
@@ -65,7 +69,13 @@ namespace GMTK2020_OutOfControl
 		//=====================================================================================================================//
 
 		#region Unity Callback Methods
-		
+
+		private void Start()
+		{
+			_rigidbody = GetComponent<Rigidbody2D>();
+			_rigidbody.bodyType = RigidbodyType2D.Kinematic;
+		}
+
 		private void OnCollisionEnter2D(Collision2D collision)
 		{
 			PlayerCharacter.DealDamage(0);
