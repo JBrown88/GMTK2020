@@ -174,11 +174,7 @@ namespace GMTK2020_OutOfControl
 
 		public static void DealDamage(float inDamage)
 		{
-			Instance._hp.AddValue(-inDamage);
-			if (!Instance._hp.IsAlive())
-			{
-				GameManager.OnGameOver();
-			}
+			GameManager.NotifyPlayerDead();
 		}
 
 		public static void SetRotation(Quaternion inRot)

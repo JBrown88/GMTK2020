@@ -68,14 +68,7 @@ namespace GMTK2020_OutOfControl
 		
 		private void OnCollisionEnter2D(Collision2D collision)
 		{
-			var pushback = (collision.transform.position - transform.position).normalized * _pushbackForce;
-			Debug.DrawRay(collision.contacts[0].point, pushback, Color.cyan, 5f);
-
-			if (collision.otherRigidbody == PlayerCharacter.Rigidbody)
-			{
-				PlayerCharacter.ApplyImpulse(pushback);
-				PlayerCharacter.DealDamage(_contactDamage);
-			}
+			PlayerCharacter.DealDamage(0);
 		}
 
 		#endregion

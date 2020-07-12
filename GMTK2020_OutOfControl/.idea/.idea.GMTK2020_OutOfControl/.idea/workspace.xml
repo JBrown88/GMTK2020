@@ -5,10 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Controllers.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Controllers.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ContactDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ContactDamage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HitPoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HitPoints.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContactDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorldControlData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
@@ -71,11 +71,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MathUtils.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GoalFlag.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HitPoints.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExtensionMethods.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HitPoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContactDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
@@ -132,7 +133,7 @@
       <updated>1594434472650</updated>
       <workItem from="1594434473837" duration="3014000" />
       <workItem from="1594439207803" duration="2594000" />
-      <workItem from="1594443320375" duration="41391000" />
+      <workItem from="1594443320375" duration="43899000" />
     </task>
     <servers />
   </component>
