@@ -17,7 +17,7 @@ using UnityEngine;
 
 namespace GMTK2020_OutOfControl
 {
-	public class WorldController : Singleton<WorldController>
+	public class WorldController : MonoBehaviour
 	{
 		//=====================================================================================================================//
 		//=================================================== Pending Tasks ===================================================//
@@ -71,8 +71,6 @@ namespace GMTK2020_OutOfControl
 
 		#region Public Properties
 
-		public static Vector3 Center => Instance._transform.position;
-
 		#endregion
 
 		//=====================================================================================================================//
@@ -102,7 +100,7 @@ namespace GMTK2020_OutOfControl
 			}
 			else
 			{
-				var lerpValue = MathUtils.MapValueToRange(-1, 1, 0, 1, rotateInput);
+				var lerpValue = ExtensionMethods.MapValueToRange(-1, 1, 0, 1, rotateInput);
 				_curRotation = Mathf.SmoothDamp(_curRotation, _data._rotationLimits.Lerp(lerpValue), ref _targetRotationDamp, _data._resetRotationTime);
 				targetRotation = _curRotation;
 			}

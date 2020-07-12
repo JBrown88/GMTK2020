@@ -663,10 +663,7 @@ public static class MathTools
         return Mathf.Max(range.x, range.y);
     }
 
-    public static bool IsNullOrEmpty(this string original)
-    {
-        return string.IsNullOrEmpty(original);
-    }
+   
     
     public static float Percentage(float start, float end, float current)
     {

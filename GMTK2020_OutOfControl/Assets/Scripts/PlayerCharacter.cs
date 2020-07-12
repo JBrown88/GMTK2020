@@ -73,7 +73,12 @@ namespace GMTK2020_OutOfControl
 		#region Public Properties
 
 		public static bool IsGrounded => Instance._bIsGrounded;
-		public static Vector3 Position => Instance._transform.position;
+		public static Vector3 Position
+		{
+			get => Instance._transform.position;
+			set => Instance._transform.position = value;
+		}
+
 		public static Rigidbody2D Rigidbody => Instance._rigidbody;
 		public static Vector3 GroundNormal => Instance._groundNormal;
 
@@ -110,7 +115,7 @@ namespace GMTK2020_OutOfControl
 				_animator.SetTrigger(dot >= 0.5f ? HitVerticalID : HitHorizontalID);
 			}
 		}
-
+		
 		#endregion
 
 		//=====================================================================================================================//
@@ -166,6 +171,11 @@ namespace GMTK2020_OutOfControl
 			
 		}
 
+		public static void SetRotation(Quaternion inRot)
+		{
+			Instance._transform.rotation = inRot;
+		}
+		
 		#endregion
 
 		//=====================================================================================================================//

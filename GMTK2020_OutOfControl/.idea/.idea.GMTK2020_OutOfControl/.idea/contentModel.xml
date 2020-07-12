@@ -24,18 +24,19 @@
               <e p="TransformResetEditor.cs" t="Include" />
             </e>
             <e p="MathTools.cs" t="Include" />
-            <e p="PrimeRandom.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
-            <e p="WeightedRandom.cs" t="Include" />
-            <e p="YieldInstructions.cs" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="ContactDamage.cs" t="Include" />
+          <e p="ExtensionMethods.cs" t="Include" />
           <e p="FollowCamera.cs" t="Include" />
-          <e p="MathUtils.cs" t="Include" />
+          <e p="GoalFlag.cs" t="Include" />
+          <e p="LevelData.cs" t="Include" />
           <e p="PlayerCharacter.cs" t="Include" />
           <e p="PlayerData.cs" t="Include" />
+          <e p="PlayerStart.cs" t="Include" />
+          <e p="SceneLoader.cs" t="Include" />
           <e p="WorldControlData.cs" t="Include" />
           <e p="WorldController.cs" t="Include" />
         </e>

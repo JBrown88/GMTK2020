@@ -15,7 +15,7 @@ using UnityEngine;
 
 namespace GMTK2020_OutOfControl
 {
-	public static class MathUtils
+	public static class ExtensionMethods
 	{
 		public static float Percentage(float start, float end, float current)
 		{
@@ -26,6 +26,28 @@ namespace GMTK2020_OutOfControl
 		{
 			float percentage = Percentage(fromMin, fromMax, value);
 			return Mathf.Lerp(toMin, toMax, percentage);
+		}
+
+		public static float Abs(this float inValue)
+		{
+			return Mathf.Abs(inValue);
+		}
+		
+		public static float Lerp(this Vector2 range, float value)
+		{
+			return Mathf.Lerp(range.x, range.y, value.Clamp01());
+		}
+		
+		public static bool IsNullOrEmpty(this string original)
+		{
+			return string.IsNullOrEmpty(original);
+		}
+
+		public static void Clamp2D(this Transform transform)
+		{
+			var position = transform.position;
+			position.z = 0;
+			transform.position = position;
 		}
 	}
 }

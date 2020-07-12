@@ -2,15 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498f660c-304e-4cbb-8c58-1ffde5ba5a7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Character.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Jump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Jump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/PlayerData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/PlayerData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/PrimeRandom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/PrimeRandom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/WeightedRandom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/WeightedRandom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/YieldInstructions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Scripts/YieldInstructions.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Template9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Template9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MathUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtensionMethods.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MathUtils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtensionMethods.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_1.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_1.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_2.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_2.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_3.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_3.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_4.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_4.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_5.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_5.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_6.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_6.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_7.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_7.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_8.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_8.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_9.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_9.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_01.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_01.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_02.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_02.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_03.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_03.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_04.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_04.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_05.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_05.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_06.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_06.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_07.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_07.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_08.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_08.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_09.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_09.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_10.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_10.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_11.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_11.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_12.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_12.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_13.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_13.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_14.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_14.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_15.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_15.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_16.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_01_Sequence/Ball_Orange_01_Bouce_Vertical_16.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_1.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_1.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_2.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_2.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_3.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_3.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_4.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_4.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_5.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_5.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_6.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_6.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_7.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_7.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_8.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_8.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_9.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Vertical_02_Sequence/Ball_Orange_01_Bouce_Vertical_02_9.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_01.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_01.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_02.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_02.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_03.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_03.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_04.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_04.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_05.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_05.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_06.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_06.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_07.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_07.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_08.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_08.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_09.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_09.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_10.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_10.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_11.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_11.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_12.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_12.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_13.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_13.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_14.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_14.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_15.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_15.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_16.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Rolling_01_Sequence/Ball_Orange_01_Rolling_16.tga.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,23 +88,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MathUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExtensionMethods.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.0/Runtime/Core/CinemachinePathBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WorldController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WorldControlData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/25/927dc706/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../A Dark Path/Assets/Scripts/DarkestPath/Interactive Elements/ContactDamage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BCCB16A8-8EC4-456D-BF07-978C418F407B/80/3d5bb7c7/PresetSelector.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Scripts/CooldownTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/07/0440785d/PhysicsScene2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/2b/4d552a6c/PhysicMaterial.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Lwo/Char_BallOrange_01/Ball_Orange_01_Bouce_Horizontal_02_Sequence/Ball_Orange_01_Bouce_Horizontal_02_1.tga.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D1422B3F-C937-4601-8C92-EDA852993B93/4e/0ed7c9e8/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ContactDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GoalFlag.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,13 +127,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MathUtils.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ContactDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorldControlData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MathUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ExtensionMethods.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoalFlag.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +194,7 @@
       <updated>1594434472650</updated>
       <workItem from="1594434473837" duration="3014000" />
       <workItem from="1594439207803" duration="2594000" />
-      <workItem from="1594443320375" duration="28740000" />
+      <workItem from="1594443320375" duration="32939000" />
     </task>
     <servers />
   </component>
