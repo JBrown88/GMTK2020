@@ -32,6 +32,7 @@ namespace GMTK2020_OutOfControl
 		public float _angularDrag;
 		public PhysicsMaterial2D _physicsMaterial;
 
+		public float _hitAnimationThreshold = 10f;
 		public float _groundCheckDistance = 0.2f;
 		public LayerMask _groundMask;
 		

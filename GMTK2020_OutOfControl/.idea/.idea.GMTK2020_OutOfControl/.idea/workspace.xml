@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="498f660c-304e-4cbb-8c58-1ffde5ba5a7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMTK2020_OutOfControl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/WorldControlData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/WorldControlData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Character.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WorldControlData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WorldControlData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +54,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Scripts/MathTools.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MathUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ContactDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WorldControlData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ContactDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCharacter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WorldControlData.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +114,7 @@
       <updated>1594434472650</updated>
       <workItem from="1594434473837" duration="3014000" />
       <workItem from="1594439207803" duration="2594000" />
-      <workItem from="1594443320375" duration="23155000" />
+      <workItem from="1594443320375" duration="24185000" />
     </task>
     <servers />
   </component>

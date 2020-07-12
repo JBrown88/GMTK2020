@@ -53,10 +53,15 @@ namespace GMTK2020_OutOfControl
 
 		[SerializeField, HideInInspector] private Rigidbody2D _rigidbody;
 		[SerializeField, HideInInspector] private CircleCollider2D _collider;
-
+		[SerializeField, HideInInspector] private Animator _animator;
+		
 		private Transform _transform;
 		private bool _bIsGrounded;
+		private Vector3 _lastFrameVelocity;
 		
+		private static readonly int HitVerticalID = Animator.StringToHash("Hit_Vertical");
+		private static readonly int HitHorizontalID = Animator.StringToHash("Hit_Horizontal");
+
 		#endregion
 
 		//=====================================================================================================================//
@@ -96,7 +101,16 @@ namespace GMTK2020_OutOfControl
 					Time.deltaTime);
 			}
 
+			_lastFrameVelocity = _rigidbody.velocity;
 			_bIsGrounded = Physics2D.Raycast(_transform.position, checkDir, _data._groundCheckDistance + _collider.radius, _data._groundMask);
+		}
+
+		private void OnCollisionEnter2D(Collision2D other)
+		{
+			if (_lastFrameVelocity.magnitude >= _data._hitAnimationThreshold)
+			{
+				_animator.SetTrigger(HitVerticalID);
+			}
 		}
 
 		#endregion
@@ -111,6 +125,7 @@ namespace GMTK2020_OutOfControl
 		private void Initialize()
 		{
 			_rigidbody = GetComponent<Rigidbody2D>();
+			_animator = GetComponent<Animator>();
 			_collider = GetComponent<CircleCollider2D>();
 			_transform = transform;
 
