@@ -32,7 +32,9 @@ namespace GMTK2020_OutOfControl
 		public float _bumpCooldownTime = 0.5f;
 		public float _bumpDuration = 0.3f;
 		public AnimationCurve _bumpCurve;
-		
+		public bool _resetRotation;
+		public bool _useFreeRotation = false;
+
 		#endregion
 	}
 }

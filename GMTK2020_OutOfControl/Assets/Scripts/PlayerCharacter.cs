@@ -16,7 +16,7 @@ using UnityEngine;
 
 namespace GMTK2020_OutOfControl
 {
-	[RequireComponent(typeof(CircleCollider2D), typeof(Rigidbody2D))]
+	[RequireComponent(typeof(CircleCollider2D), typeof(Rigidbody2D), typeof(Animator))]
 	public class PlayerCharacter : Singleton<PlayerCharacter>
 	{
 		//=====================================================================================================================//
@@ -114,6 +114,7 @@ namespace GMTK2020_OutOfControl
 			_collider = GetComponent<CircleCollider2D>();
 			_transform = transform;
 
+			_rigidbody.sharedMaterial = _data._physicsMaterial;
 			_rigidbody.drag = _data._linearDrag;
 			_rigidbody.mass = _data._mass;
 			_rigidbody.gravityScale = _data._gravityScale;
