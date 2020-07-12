@@ -81,6 +81,7 @@ namespace GMTK2020_OutOfControl
 
 		public static Rigidbody2D Rigidbody => Instance._rigidbody;
 		public static Vector3 GroundNormal => Instance._groundNormal;
+		public static CircleCollider2D Collider => Instance._collider;
 
 		#endregion
 
@@ -103,6 +104,8 @@ namespace GMTK2020_OutOfControl
 			{
 				_groundNormal = -(hit.transform.position - _transform.position);
 			}
+
+			_rigidbody.ClampVelocity(_data._maxSpeed);
 			
 			_lastFrameVelocity = _rigidbody.velocity;
 		}
@@ -125,7 +128,7 @@ namespace GMTK2020_OutOfControl
 		#region Private Methods
 
 		[ContextMenu("Initialize")]
-		private void Initialize()
+		protected override void Initialize()
 		{
 			_rigidbody = GetComponent<Rigidbody2D>();
 			_animator = GetComponent<Animator>();

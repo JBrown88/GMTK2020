@@ -6,6 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Controllers.unity
+    guid: 416713d2fb1689c4e97d9330c54d1b21
+  - enabled: 1
+    path: Assets/Scenes/Template0.unity
+    guid: ab77053b8706c9c40aca20629376e12c
+  - enabled: 1
+    path: Assets/Scenes/Template1.unity
+    guid: 5b6a1f27373804f4085c89958ef22d5d
+  - enabled: 1
+    path: Assets/Scenes/Template2.unity
+    guid: c95682d3a9d921643b7be55d30c3d81d
+  - enabled: 1
+    path: Assets/Scenes/Template3.unity
+    guid: b6543f6fab2408f4ca23b3fe760245d1
+  - enabled: 1
+    path: Assets/Scenes/Template4.unity
+    guid: b358e2569a02bf44093739924fcb90fb
+  - enabled: 1
+    path: Assets/Scenes/Template5.unity
+    guid: 17b159514b9e52047a9b9133ad7fe2d8
+  - enabled: 1
+    path: Assets/Scenes/Template6.unity
+    guid: 3f3befcfc20bbbb40ba5a4efb71ab088
+  - enabled: 1
+    path: Assets/Scenes/Template7.unity
+    guid: 07f3bac3c2c350946a488b7a1058528a
+  - enabled: 1
+    path: Assets/Scenes/Template8.unity
+    guid: ba432959fd951a7478a2110b949e8e37
+  - enabled: 1
+    path: Assets/Scenes/Template9.unity
+    guid: c103293b483d2d94bb9b63e952bd0db5
   m_configObjects: {}
