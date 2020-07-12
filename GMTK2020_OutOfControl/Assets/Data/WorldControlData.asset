@@ -16,7 +16,7 @@ MonoBehaviour:
   _rotationDampTime: 0.15
   _resetRotationTime: 0.5
   _rotationLimits: {x: -45, y: 45}
-  _bumpForce: 5
+  _bumpForce: 0
   _bumpCooldownTime: 0.5
   _bumpDuration: 0.25
   _bumpCurve:
