@@ -82,7 +82,6 @@ namespace GMTK2020_OutOfControl
 				return;
 			
 			NextLevel();
-			gameObject.SetActive(false);
 		}
 
 		#endregion
