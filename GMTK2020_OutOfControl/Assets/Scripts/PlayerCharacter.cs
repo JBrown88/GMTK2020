@@ -208,7 +208,6 @@ namespace GMTK2020_OutOfControl
 				frameCount--;
 				Time.timeScale = (frameCount / 30f);
 				_animator.SetFloat(AnimSpeedID, 1/Time.deltaTime);
-				print(Time.timeScale);
 				yield return null;
 			}
 
